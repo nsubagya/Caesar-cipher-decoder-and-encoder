@@ -1,4 +1,4 @@
-#Title: Caesar Cipher Encoder and Decoder in Python
+# Title: Caesar Cipher Encoder and Decoder in Python
 
 Description:
 This project is a Python implementation of a Caesar cipher encoder and decoder. The Caesar cipher is one of the simplest and most widely known encryption techniques. It works by shifting the letters of the alphabet by a certain number of positions. This program allows users to encode and decode messages using the Caesar cipher.
