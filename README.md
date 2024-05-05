@@ -9,11 +9,12 @@ By implementing the Caesar cipher encoder and decoder in Python, I aimed to rein
 
 Features:
 
-Encode plaintext messages using the Caesar cipher algorithm
-Decode Caesar cipher-encrypted messages to reveal the original plaintext
-Simple and intuitive user interface
-Educational resource for learning about encryption and cryptography
-Easy-to-understand Python code structure and implementation
+-Encode plaintext messages using the Caesar cipher algorithm
+-Decode Caesar cipher-encrypted messages to reveal the original plaintext
+-Simple and intuitive user interface
+-Educational resource for learning about encryption and cryptography
+-Easy-to-understand Python code structure and implementation
+-Automated to provide the most suitable descriptions and the corresponding decryption key
 
 
 
