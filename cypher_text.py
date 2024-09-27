@@ -26,6 +26,8 @@ if st.button("Submit"):
         best_shift, all_decrypted_texts = Decrypt_caesar_cipher_automation(input_text)
         st.subheader("Best Shift Value")
         st.write(best_shift)
+        st.subheader("Best Decrypted Text")
+        st.write(best_decrypted_text)
         st.subheader("All Possible Decryptions")
         for shift, text in all_decrypted_texts:
             st.write(f"Shift: {shift} - Decrypted Text: {text}")
