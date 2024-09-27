@@ -78,5 +78,6 @@ def Decrypt_caesar_cipher_automation(ciphertext):
 
         #else:
             #print("Shift:", shift, "- No English words found in any decrypted text.")
-    return best_shift, all_dec_text
+    #return best_shift, all_dec_text
+    return best_shift, all_dec_text, decrypt_caesar_cipher(ciphertext, best_shift)
     #return print("best shift:",best_shift, "- Best Decrypted Text:", decrypted_text(ciphertext,best_shift))#,all_dec_text
