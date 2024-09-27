@@ -23,7 +23,8 @@ if st.button("Submit"):
         st.subheader("Decrypted Text")
         st.write(decrypted_text)
     elif option == "Automated Decryption":
-        best_shift, all_decrypted_texts = Decrypt_caesar_cipher_automation(input_text)
+        best_shift, all_decrypted_texts, best_decrypted_text = Decrypt_caesar_cipher_automation(input_text)
+        #best_shift, all_decrypted_texts = Decrypt_caesar_cipher_automation(input_text)
         st.subheader("Best Shift Value")
         st.write(best_shift)
         st.subheader("Best Decrypted Text")
