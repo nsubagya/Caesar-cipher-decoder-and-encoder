@@ -1,5 +1,3 @@
-# app.py
-
 import streamlit as st
 from caesar_cipher import encrypt_caesar_cipher, decrypt_caesar_cipher, Decrypt_caesar_cipher_automation
 
